@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3">
+        <ImageView android:layout_row="0" android:layout_column="0" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/asda" android:id="@+id/col0row0"/>
+        <ImageView android:layout_row="0" android:layout_column="1" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/draw" android:id="@+id/col1row0"/>
+        <ImageView android:layout_row="0" android:layout_column="2" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/lele" android:id="@+id/col2row0"/>
+
+        <ImageView android:layout_row="1" android:layout_column="0" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/asda" android:id="@+id/col0row1"/>
+        <ImageView android:layout_row="1" android:layout_column="1" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/draw" android:id="@+id/col1row1"/>
+        <ImageView android:layout_row="1" android:layout_column="2" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/lele" android:id="@+id/col2row1"/>
+
+        <ImageView android:layout_row="2" android:layout_column="0" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/asda" android:id="@+id/col0row2"/>
+        <ImageView android:layout_row="2" android:layout_column="1" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/draw" android:id="@+id/col1row2"/>
+        <ImageView android:layout_row="2" android:layout_column="2" android:layout_height="100dp" android:layout_width="100dp" android:src="@drawable/lele" android:id="@+id/col2row2"/>
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
